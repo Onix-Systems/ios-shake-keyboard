@@ -12,7 +12,6 @@
 		B15B88AA1DEF387000052191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15B88A81DEF387000052191 /* Main.storyboard */; };
 		B15B88AC1DEF387000052191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15B88AB1DEF387000052191 /* Assets.xcassets */; };
 		B15B88AF1DEF387000052191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15B88AD1DEF387000052191 /* LaunchScreen.storyboard */; };
-		B15B88BA1DEF387100052191 /* __ball_keyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B88B91DEF387100052191 /* __ball_keyboardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,6 @@
 		B15B88AE1DEF387000052191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15B88B01DEF387000052191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15B88B51DEF387100052191 /* 8-ball keyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8-ball keyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B15B88B91DEF387100052191 /* __ball_keyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __ball_keyboardTests.swift; sourceTree = "<group>"; };
 		B15B88BB1DEF387100052191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +88,6 @@
 		B15B88B81DEF387100052191 /* 8-ball keyboardTests */ = {
 			isa = PBXGroup;
 			children = (
-				B15B88B91DEF387100052191 /* __ball_keyboardTests.swift */,
 				B15B88BB1DEF387100052191 /* Info.plist */,
 			);
 			path = "8-ball keyboardTests";
@@ -106,6 +103,7 @@
 				B15B889D1DEF387000052191 /* Sources */,
 				B15B889E1DEF387000052191 /* Frameworks */,
 				B15B889F1DEF387000052191 /* Resources */,
+				B15B88C51DEF41C800052191 /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -194,6 +192,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B15B88C51DEF41C800052191 /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint lint --strict || exit 3\nelse\necho \"SwiftLint does not exist\" >&2\nexit 1\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B15B889D1DEF387000052191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15B88BA1DEF387100052191 /* __ball_keyboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +418,7 @@
 				B15B88C01DEF387100052191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B15B88C11DEF387100052191 /* Build configuration list for PBXNativeTarget "8-ball keyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +427,7 @@
 				B15B88C31DEF387100052191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
