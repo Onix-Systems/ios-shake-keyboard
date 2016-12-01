@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11A0B031DF02A060083ACF6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */; };
+		B11A0B071DF02A060083ACF6 /* Eight Ball Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B11A0B001DF02A060083ACF6 /* Eight Ball Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B15B88A51DEF387000052191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B88A41DEF387000052191 /* AppDelegate.swift */; };
 		B15B88A71DEF387000052191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B88A61DEF387000052191 /* ViewController.swift */; };
 		B15B88AA1DEF387000052191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15B88A81DEF387000052191 /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B11A0B051DF02A060083ACF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B15B88991DEF387000052191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11A0AFF1DF02A060083ACF6;
+			remoteInfo = "Eight Ball Keyboard";
+		};
 		B15B88B61DEF387100052191 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B15B88991DEF387000052191 /* Project object */;
@@ -24,7 +33,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B11A0B0B1DF02A060083ACF6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B11A0B071DF02A060083ACF6 /* Eight Ball Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B11A0B001DF02A060083ACF6 /* Eight Ball Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Eight Ball Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B11A0B041DF02A060083ACF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15B88A11DEF387000052191 /* 8-ball keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8-ball keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15B88A41DEF387000052191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B15B88A61DEF387000052191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B11A0AFD1DF02A060083ACF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B15B889E1DEF387000052191 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,11 +87,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B11A0B011DF02A060083ACF6 /* Eight Ball Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */,
+				B11A0B041DF02A060083ACF6 /* Info.plist */,
+			);
+			path = "Eight Ball Keyboard";
+			sourceTree = "<group>";
+		};
 		B15B88981DEF387000052191 = {
 			isa = PBXGroup;
 			children = (
 				B15B88A31DEF387000052191 /* 8-ball keyboard */,
 				B15B88B81DEF387100052191 /* 8-ball keyboardTests */,
+				B11A0B011DF02A060083ACF6 /* Eight Ball Keyboard */,
 				B15B88A21DEF387000052191 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +111,7 @@
 			children = (
 				B15B88A11DEF387000052191 /* 8-ball keyboard.app */,
 				B15B88B51DEF387100052191 /* 8-ball keyboardTests.xctest */,
+				B11A0B001DF02A060083ACF6 /* Eight Ball Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +140,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B11A0AFF1DF02A060083ACF6 /* Eight Ball Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11A0B0A1DF02A060083ACF6 /* Build configuration list for PBXNativeTarget "Eight Ball Keyboard" */;
+			buildPhases = (
+				B11A0AFC1DF02A060083ACF6 /* Sources */,
+				B11A0AFD1DF02A060083ACF6 /* Frameworks */,
+				B11A0AFE1DF02A060083ACF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eight Ball Keyboard";
+			productName = "Eight Ball Keyboard";
+			productReference = B11A0B001DF02A060083ACF6 /* Eight Ball Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B15B88A01DEF387000052191 /* 8-ball keyboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B15B88BE1DEF387100052191 /* Build configuration list for PBXNativeTarget "8-ball keyboard" */;
@@ -104,10 +165,12 @@
 				B15B889E1DEF387000052191 /* Frameworks */,
 				B15B889F1DEF387000052191 /* Resources */,
 				B15B88C51DEF41C800052191 /* Run SwiftLint Script */,
+				B11A0B0B1DF02A060083ACF6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B11A0B061DF02A060083ACF6 /* PBXTargetDependency */,
 			);
 			name = "8-ball keyboard";
 			productName = "8-ball keyboard";
@@ -142,6 +205,10 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Onix-Systems";
 				TargetAttributes = {
+					B11A0AFF1DF02A060083ACF6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					B15B88A01DEF387000052191 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
@@ -168,11 +235,19 @@
 			targets = (
 				B15B88A01DEF387000052191 /* 8-ball keyboard */,
 				B15B88B41DEF387100052191 /* 8-ball keyboardTests */,
+				B11A0AFF1DF02A060083ACF6 /* Eight Ball Keyboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B11A0AFE1DF02A060083ACF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B15B889F1DEF387000052191 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +285,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B11A0AFC1DF02A060083ACF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11A0B031DF02A060083ACF6 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B15B889D1DEF387000052191 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +312,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B11A0B061DF02A060083ACF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11A0AFF1DF02A060083ACF6 /* Eight Ball Keyboard */;
+			targetProxy = B11A0B051DF02A060083ACF6 /* PBXContainerItemProxy */;
+		};
 		B15B88B71DEF387100052191 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B15B88A01DEF387000052191 /* 8-ball keyboard */;
@@ -256,6 +344,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B11A0B081DF02A060083ACF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Eight Ball Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.--ball-keyboard.Eight-Ball-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B11A0B091DF02A060083ACF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Eight Ball Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.--ball-keyboard.Eight-Ball-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		B15B88BC1DEF387100052191 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -350,6 +462,7 @@
 		B15B88BF1DEF387100052191 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "8-ball keyboard/Info.plist";
@@ -364,6 +477,7 @@
 		B15B88C01DEF387100052191 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "8-ball keyboard/Info.plist";
@@ -406,6 +520,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B11A0B0A1DF02A060083ACF6 /* Build configuration list for PBXNativeTarget "Eight Ball Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11A0B081DF02A060083ACF6 /* Debug */,
+				B11A0B091DF02A060083ACF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B15B889C1DEF387000052191 /* Build configuration list for PBXProject "8-ball keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
