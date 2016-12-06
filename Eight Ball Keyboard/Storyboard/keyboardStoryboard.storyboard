@@ -30,19 +30,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz6-SH-pDN">
+                                <rect key="frame" x="143" y="287" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RzW-AC-3Dr"/>
+                                    <constraint firstAttribute="width" constant="30" id="Y3y-2j-Uh2"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="button_globe"/>
+                                <connections>
+                                    <action selector="nextBtnTouchUpInside:" destination="tTp-Nh-Ili" eventType="touchUpInside" id="yhb-tv-C07"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="oef-5W-oOk" firstAttribute="leading" secondItem="uz6-SH-pDN" secondAttribute="trailing" constant="57" id="6Bk-r7-Fl3"/>
+                            <constraint firstItem="uz6-SH-pDN" firstAttribute="centerY" secondItem="oef-5W-oOk" secondAttribute="centerY" constant="1.5" id="7OC-4u-YJf"/>
                             <constraint firstItem="oef-5W-oOk" firstAttribute="centerY" secondItem="m19-8f-miL" secondAttribute="centerY" id="8J4-ly-EKD"/>
                             <constraint firstItem="oef-5W-oOk" firstAttribute="centerX" secondItem="m19-8f-miL" secondAttribute="centerX" id="maJ-sq-XhN"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="nextKeyboardButton" destination="uz6-SH-pDN" id="VtP-SN-47K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oF9-MC-JGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="280" y="-125.03748125937032"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="button_globe" width="34" height="39"/>
+    </resources>
 </document>

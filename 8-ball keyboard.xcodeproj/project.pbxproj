@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10F85DC1DF6C0620035590B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10F85DB1DF6C0620035590B /* Assets.xcassets */; };
 		B11A0B031DF02A060083ACF6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */; };
 		B11A0B071DF02A060083ACF6 /* Eight Ball Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B11A0B001DF02A060083ACF6 /* Eight Ball Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B11A0B0D1DF037370083ACF6 /* keyboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11A0B0C1DF037370083ACF6 /* keyboardStoryboard.storyboard */; };
@@ -49,6 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B10F85DB1DF6C0620035590B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11A0B001DF02A060083ACF6 /* Eight Ball Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Eight Ball Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		B11A0B041DF02A060083ACF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */,
 				B11A0B0C1DF037370083ACF6 /* keyboardStoryboard.storyboard */,
 				B11A0B041DF02A060083ACF6 /* Info.plist */,
+				B10F85DB1DF6C0620035590B /* Assets.xcassets */,
 			);
 			path = "Eight Ball Keyboard";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10F85DC1DF6C0620035590B /* Assets.xcassets in Resources */,
 				B11A0B0D1DF037370083ACF6 /* keyboardStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -461,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -477,7 +481,7 @@
 				DEVELOPMENT_TEAM = GJX986XEH7;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "8-ball keyboard/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.--ball-keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,7 +498,7 @@
 				DEVELOPMENT_TEAM = GJX986XEH7;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "8-ball keyboard/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.--ball-keyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";

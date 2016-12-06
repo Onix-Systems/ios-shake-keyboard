@@ -27,6 +27,9 @@ class KeyboardViewController: UIInputViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if #available(iOSApplicationExtension 10.0, *) {
+            self.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: UIControlEvents.allTouchEvents)
+        }
     }
 
     override func didReceiveMemoryWarning() {
