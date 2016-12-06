@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:8-ball keyboard.xcodeproj">
+      location = "self:/Users/artemchaykovsky/Projects/ios-8-ball-keyboard/ios-shake-keyboard.xcodeproj">
    </FileRef>
 </Workspace>
