@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B11A0B031DF02A060083ACF6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */; };
-		B11A0B071DF02A060083ACF6 /* ios-shake.keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B11A0B001DF02A060083ACF6 /* ios-shake.keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B11A0B071DF02A060083ACF6 /* Shake Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B11A0B001DF02A060083ACF6 /* Shake Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B11A0B0D1DF037370083ACF6 /* keyboardStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11A0B0C1DF037370083ACF6 /* keyboardStoryboard.storyboard */; };
 		B15B88A51DEF387000052191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B88A41DEF387000052191 /* AppDelegate.swift */; };
 		B15B88A71DEF387000052191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B88A61DEF387000052191 /* ViewController.swift */; };
@@ -25,13 +25,6 @@
 			remoteGlobalIDString = B11A0AFF1DF02A060083ACF6;
 			remoteInfo = "Eight Ball Keyboard";
 		};
-		B15B88B61DEF387100052191 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B15B88991DEF387000052191 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B15B88A01DEF387000052191;
-			remoteInfo = "8-ball keyboard";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B11A0B071DF02A060083ACF6 /* ios-shake.keyboard.appex in Embed App Extensions */,
+				B11A0B071DF02A060083ACF6 /* Shake Keyboard.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B11A0B001DF02A060083ACF6 /* ios-shake.keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ios-shake.keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11A0B001DF02A060083ACF6 /* Shake Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Shake Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		B11A0B041DF02A060083ACF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11A0B0C1DF037370083ACF6 /* keyboardStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = keyboardStoryboard.storyboard; path = Storyboard/keyboardStoryboard.storyboard; sourceTree = "<group>"; };
@@ -60,7 +53,6 @@
 		B15B88AB1DEF387000052191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15B88AE1DEF387000052191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15B88B01DEF387000052191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B15B88B51DEF387100052191 /* ios-shake-keyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-shake-keyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15B88BB1DEF387100052191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,24 +71,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B15B88B21DEF387100052191 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B11A0B011DF02A060083ACF6 /* ios-shake-keyboard */ = {
+		B11A0B011DF02A060083ACF6 /* Shake keyboard */ = {
 			isa = PBXGroup;
 			children = (
 				B11A0B021DF02A060083ACF6 /* KeyboardViewController.swift */,
 				B11A0B0C1DF037370083ACF6 /* keyboardStoryboard.storyboard */,
 				B11A0B041DF02A060083ACF6 /* Info.plist */,
 			);
-			name = "ios-shake-keyboard";
+			name = "Shake keyboard";
 			path = "Eight Ball Keyboard";
 			sourceTree = "<group>";
 		};
@@ -104,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				B15B88A31DEF387000052191 /* ios-shake-keyboard */,
-				B15B88B81DEF387100052191 /* ios-shake-keyboard */,
-				B11A0B011DF02A060083ACF6 /* ios-shake-keyboard */,
+				B15B88B81DEF387100052191 /* Supporting files */,
+				B11A0B011DF02A060083ACF6 /* Shake keyboard */,
 				B15B88A21DEF387000052191 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,8 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B15B88A11DEF387000052191 /* ios-shake-keyboard.app */,
-				B15B88B51DEF387100052191 /* ios-shake-keyboardTests.xctest */,
-				B11A0B001DF02A060083ACF6 /* ios-shake.keyboard.appex */,
+				B11A0B001DF02A060083ACF6 /* Shake Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,25 +114,23 @@
 				B15B88AD1DEF387000052191 /* LaunchScreen.storyboard */,
 				B15B88B01DEF387000052191 /* Info.plist */,
 			);
-			name = "ios-shake-keyboard";
-			path = "8-ball keyboard";
+			path = "ios-shake-keyboard";
 			sourceTree = "<group>";
 		};
-		B15B88B81DEF387100052191 /* ios-shake-keyboard */ = {
+		B15B88B81DEF387100052191 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
 				B15B88BB1DEF387100052191 /* Info.plist */,
 			);
-			name = "ios-shake-keyboard";
-			path = "8-ball keyboardTests";
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B11A0AFF1DF02A060083ACF6 /* ios-shake.keyboard */ = {
+		B11A0AFF1DF02A060083ACF6 /* Shake Keyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B11A0B0A1DF02A060083ACF6 /* Build configuration list for PBXNativeTarget "ios-shake.keyboard" */;
+			buildConfigurationList = B11A0B0A1DF02A060083ACF6 /* Build configuration list for PBXNativeTarget "Shake Keyboard" */;
 			buildPhases = (
 				B11A0AFC1DF02A060083ACF6 /* Sources */,
 				B11A0AFD1DF02A060083ACF6 /* Frameworks */,
@@ -158,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = "ios-shake.keyboard";
+			name = "Shake Keyboard";
 			productName = "Eight Ball Keyboard";
-			productReference = B11A0B001DF02A060083ACF6 /* ios-shake.keyboard.appex */;
+			productReference = B11A0B001DF02A060083ACF6 /* Shake Keyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		B15B88A01DEF387000052191 /* ios-shake-keyboard */ = {
@@ -183,24 +165,6 @@
 			productReference = B15B88A11DEF387000052191 /* ios-shake-keyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B15B88B41DEF387100052191 /* ios-shake-keyboardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B15B88C11DEF387100052191 /* Build configuration list for PBXNativeTarget "ios-shake-keyboardTests" */;
-			buildPhases = (
-				B15B88B11DEF387100052191 /* Sources */,
-				B15B88B21DEF387100052191 /* Frameworks */,
-				B15B88B31DEF387100052191 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B15B88B71DEF387100052191 /* PBXTargetDependency */,
-			);
-			name = "ios-shake-keyboardTests";
-			productName = "8-ball keyboardTests";
-			productReference = B15B88B51DEF387100052191 /* ios-shake-keyboardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,11 +185,6 @@
 						DevelopmentTeam = GJX986XEH7;
 						ProvisioningStyle = Automatic;
 					};
-					B15B88B41DEF387100052191 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B15B88A01DEF387000052191;
-					};
 				};
 			};
 			buildConfigurationList = B15B889C1DEF387000052191 /* Build configuration list for PBXProject "ios-shake-keyboard" */;
@@ -242,8 +201,7 @@
 			projectRoot = "";
 			targets = (
 				B15B88A01DEF387000052191 /* ios-shake-keyboard */,
-				B15B88B41DEF387100052191 /* ios-shake-keyboardTests */,
-				B11A0AFF1DF02A060083ACF6 /* ios-shake.keyboard */,
+				B11A0AFF1DF02A060083ACF6 /* Shake Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -264,13 +222,6 @@
 				B15B88AF1DEF387000052191 /* LaunchScreen.storyboard in Resources */,
 				B15B88AC1DEF387000052191 /* Assets.xcassets in Resources */,
 				B15B88AA1DEF387000052191 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15B88B31DEF387100052191 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,25 +262,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B15B88B11DEF387100052191 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		B11A0B061DF02A060083ACF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B11A0AFF1DF02A060083ACF6 /* ios-shake.keyboard */;
+			target = B11A0AFF1DF02A060083ACF6 /* Shake Keyboard */;
 			targetProxy = B11A0B051DF02A060083ACF6 /* PBXContainerItemProxy */;
-		};
-		B15B88B71DEF387100052191 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B15B88A01DEF387000052191 /* ios-shake-keyboard */;
-			targetProxy = B15B88B61DEF387100052191 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -479,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GJX986XEH7;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "8-ball keyboard/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.ios-shake-keyboard";
@@ -496,7 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GJX986XEH7;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "8-ball keyboard/Info.plist";
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.ios-shake-keyboard";
@@ -506,38 +445,10 @@
 			};
 			name = Release;
 		};
-		B15B88C21DEF387100052191 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "8-ball keyboardTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.--ball-keyboardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-shake-keyboard.app/ios-shake-keyboard";
-			};
-			name = Debug;
-		};
-		B15B88C31DEF387100052191 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "8-ball keyboardTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.onix.--ball-keyboardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-shake-keyboard.app/ios-shake-keyboard";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B11A0B0A1DF02A060083ACF6 /* Build configuration list for PBXNativeTarget "ios-shake.keyboard" */ = {
+		B11A0B0A1DF02A060083ACF6 /* Build configuration list for PBXNativeTarget "Shake Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B11A0B081DF02A060083ACF6 /* Debug */,
@@ -560,15 +471,6 @@
 			buildConfigurations = (
 				B15B88BF1DEF387100052191 /* Debug */,
 				B15B88C01DEF387100052191 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B15B88C11DEF387100052191 /* Build configuration list for PBXNativeTarget "ios-shake-keyboardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B15B88C21DEF387100052191 /* Debug */,
-				B15B88C31DEF387100052191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
