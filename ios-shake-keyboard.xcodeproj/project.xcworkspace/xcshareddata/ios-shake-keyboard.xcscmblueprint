@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DBDB9A032B68A79392913875DAAC49E0AD91D6D2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DBDB9A032B68A79392913875DAAC49E0AD91D6D2" : 9223372036854775807,
+    "55ADDB601B87F45428ADC586574C22B3A1AB4037" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B09582B-2645-412E-BE46-84F0469D549A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DBDB9A032B68A79392913875DAAC49E0AD91D6D2" : "ios-8-ball-keyboard\/",
+    "55ADDB601B87F45428ADC586574C22B3A1AB4037" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios-shake-keyboard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios-shake-keyboard.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/onix-systems\/kaliapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55ADDB601B87F45428ADC586574C22B3A1AB4037"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Onix-Systems\/ios-8-ball-keyboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBDB9A032B68A79392913875DAAC49E0AD91D6D2"
+    }
+  ]
+}
