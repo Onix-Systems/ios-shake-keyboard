@@ -1,6 +1,6 @@
 # ios-shake-keyboard
 
-Xcode project that provides a way to use shake gesture in keyboard extension.
+iOS Keyboard extension that allows to track shake-motion events.
 
 ## License
 
