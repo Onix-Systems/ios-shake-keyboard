@@ -68,7 +68,7 @@
 1. Branch out `release/X.Y.Z` from `develop`
 2. Test the release
 3. Merge the release branch to `master`
-4. Tag the merge commit as `vX.Y.Z`
+4. Tag the merge commit as `X.Y.Z`
 5. Delete the release branch
 6. Deploy from `master` branch
 
